@@ -1,0 +1,6 @@
+{
+  "name": "Học Tiếng Anh Qua Truyện",
+  "description": "Ứng dụng học tiếng Anh thông minh qua câu chuyện, vẽ tranh bằng AI, hoạt cảnh kiến tím kéo bảng, chú ong thông thái và cô tiên Tinker Bell.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

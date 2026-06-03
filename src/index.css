@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+/* Enable custom leaf cursor for mouse-based platforms while preserving standard touch interactions on mobile */
+@media (hover: hover) and (pointer: fine) {
+  html, body, #root {
+    cursor: none !important;
+  }
+  input, button, a, select, textarea, [role="button"] {
+    cursor: auto;
+  }
+}
+
